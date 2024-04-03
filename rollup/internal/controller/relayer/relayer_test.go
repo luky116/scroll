@@ -5,15 +5,17 @@ import (
 	"encoding/json"
 	"math/big"
 	"os"
+	"strconv"
+	"testing"
+
+	"scroll-tech/rollup/internal/config"
+
 	"scroll-tech/common/database"
 	dockercompose "scroll-tech/common/docker-compose/l1"
 	"scroll-tech/common/testcontainers"
 	tc "scroll-tech/common/testcontainers"
 	"scroll-tech/common/types/encoding"
 	"scroll-tech/common/types/encoding/codecv0"
-	"scroll-tech/rollup/internal/config"
-	"strconv"
-	"testing"
 
 	"github.com/scroll-tech/go-ethereum/common"
 	"github.com/scroll-tech/go-ethereum/ethclient"

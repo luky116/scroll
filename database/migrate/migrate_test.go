@@ -1,11 +1,13 @@
 package migrate
 
 import (
-	"scroll-tech/common/testcontainers"
-	tc "scroll-tech/common/testcontainers"
+	"testing"
+
 	"scroll-tech/database"
 	db "scroll-tech/database"
-	"testing"
+
+	"scroll-tech/common/testcontainers"
+	tc "scroll-tech/common/testcontainers"
 
 	"github.com/jmoiron/sqlx"
 	_ "github.com/lib/pq"

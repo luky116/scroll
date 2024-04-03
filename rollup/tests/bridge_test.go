@@ -6,14 +6,16 @@ import (
 	"math/big"
 	"net/http"
 	"os"
-	dockercompose "scroll-tech/common/docker-compose/l1"
-	tc "scroll-tech/common/testcontainers"
-	"scroll-tech/common/utils"
-	"scroll-tech/database/migrate"
 	"strconv"
 	"strings"
 	"testing"
 	"time"
+
+	"scroll-tech/database/migrate"
+
+	dockercompose "scroll-tech/common/docker-compose/l1"
+	tc "scroll-tech/common/testcontainers"
+	"scroll-tech/common/utils"
 
 	"github.com/gin-gonic/gin"
 	"github.com/scroll-tech/go-ethereum/accounts/abi/bind"

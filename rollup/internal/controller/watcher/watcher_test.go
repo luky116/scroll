@@ -3,13 +3,16 @@ package watcher
 import (
 	"encoding/json"
 	"os"
+	"testing"
+
+	"scroll-tech/rollup/internal/config"
+
+	"scroll-tech/database/migrate"
+
 	"scroll-tech/common/database"
 	"scroll-tech/common/testcontainers"
 	tc "scroll-tech/common/testcontainers"
 	"scroll-tech/common/types/encoding"
-	"scroll-tech/database/migrate"
-	"scroll-tech/rollup/internal/config"
-	"testing"
 
 	"github.com/scroll-tech/go-ethereum/ethclient"
 	"github.com/scroll-tech/go-ethereum/log"

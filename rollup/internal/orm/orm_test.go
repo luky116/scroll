@@ -5,14 +5,16 @@ import (
 	"encoding/json"
 	"math/big"
 	"os"
+	"testing"
+
+	"scroll-tech/database/migrate"
+
 	"scroll-tech/common/testcontainers"
 	tc "scroll-tech/common/testcontainers"
 	"scroll-tech/common/types"
 	"scroll-tech/common/types/encoding"
 	"scroll-tech/common/types/encoding/codecv0"
 	"scroll-tech/common/types/encoding/codecv1"
-	"scroll-tech/database/migrate"
-	"testing"
 
 	"github.com/scroll-tech/go-ethereum/common"
 	gethTypes "github.com/scroll-tech/go-ethereum/core/types"

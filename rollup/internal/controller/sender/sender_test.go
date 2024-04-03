@@ -8,17 +8,20 @@ import (
 	"fmt"
 	"math/big"
 	"os"
-	dockercompose "scroll-tech/common/docker-compose/l1"
-	"scroll-tech/common/testcontainers"
-	tc "scroll-tech/common/testcontainers"
-	"scroll-tech/common/types"
-	"scroll-tech/database/migrate"
+	"testing"
+	"time"
+
 	bridgeAbi "scroll-tech/rollup/abi"
 	"scroll-tech/rollup/internal/config"
 	"scroll-tech/rollup/internal/orm"
 	"scroll-tech/rollup/mock_bridge"
-	"testing"
-	"time"
+
+	"scroll-tech/database/migrate"
+
+	dockercompose "scroll-tech/common/docker-compose/l1"
+	"scroll-tech/common/testcontainers"
+	tc "scroll-tech/common/testcontainers"
+	"scroll-tech/common/types"
 
 	"github.com/agiledragon/gomonkey/v2"
 	"github.com/consensys/gnark-crypto/ecc/bls12-381/fr"
