@@ -1,4 +1,4 @@
-package dockercompose
+package testcontainers
 
 import (
 	"context"
