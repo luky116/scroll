@@ -17,7 +17,7 @@ require (
 	github.com/scroll-tech/go-ethereum v1.10.14-0.20240326144132-0f0cd99f7a2e
 	github.com/stretchr/testify v1.9.0
 	github.com/testcontainers/testcontainers-go v0.28.0
-	github.com/testcontainers/testcontainers-go/modules/compose v0.28.0
+	github.com/testcontainers/testcontainers-go/modules/compose v0.25.0
 	github.com/testcontainers/testcontainers-go/modules/postgres v0.28.0
 	github.com/urfave/cli/v2 v2.25.7
 	gorm.io/driver/postgres v1.5.0
@@ -52,6 +52,7 @@ require (
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/chenzhuoyu/base64x v0.0.0-20230717121745-296ad89f973d // indirect
 	github.com/chenzhuoyu/iasm v0.9.0 // indirect
+	github.com/compose-spec/compose-go v1.20.0 // indirect
 	github.com/compose-spec/compose-go/v2 v2.0.0-rc.2 // indirect
 	github.com/consensys/bavard v0.1.13 // indirect
 	github.com/consensys/gnark-crypto v0.12.1 // indirect
